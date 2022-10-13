@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["index.html"],
+  darkMode: "class",
+  // darkMode: "media", membuat auto dark mode melalui tema windows
   theme: {
     container: {
       center: true,
